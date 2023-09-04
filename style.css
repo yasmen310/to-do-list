@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #352f5b;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 50px;
+  /* background-image:linear-gradient(direction ,color-stop1,color-stop2)  تدرج الالوان*/
+  background-image: linear-gradient(to top, #352f5b, rgba(255, 255, 255, 0.19));
+}
+p {
+  font-size: 22px;
+}
+.task {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70vw;
+  padding: 20px;
+  /* center */
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid white;
+  /* https: //hype4.academy/tools/glassmorphism-generator */
+  /* https://icomoon.io/app/#/select/font */
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  font-size: 27px;
+}
+.icon:hover {
+  font-size: 29px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.icon-star-full,
+.icon-bin {
+  opacity: 0.4;
+}
+.icon-star-full:hover {
+  opacity: 1;
+  color: orange;
+}
+.icon-bin {
+  margin-right: 10px;
+  font-size: 27px;
+}
+.icon-bin:hover {
+  font-size: 29px;
+  opacity: 1;
+}
+.icon-angry2 {
+  color: #d3f70a;
+}
+h2 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+form {
+  text-align: center;
+  margin-bottom: 50px;
+}
+input {
+  padding: 10px 20px;
+  border-radius: 6px;
+  width: 35vw;
+  font-size: 21px;
+  text-align: center;
+}
+.icon-upload3 {
+  font-size: 35px;
+  margin-left: 10px;
+  position: relative;
+  top: 9px;
+}
+.icon-upload3:hover {
+  font-size: 43px;
+  color: goldenrod;
+  transition: 0.2s;
+}
+button {
+  all: unset;
+  /* defualt */
+}
+.dn {
+  display: none;
+}
+.icon-heart {
+  font-size: 23px;
+  color: red;
+}
+.icon-heart:hover {
+  font-size: 25px;
+  transition: 0.2s;
+}
+.finish {
+  text-decoration-line: line-through;
+  /* text-decoration-style: dashed; */
+}
+.orange {
+  color: orange;
+  opacity: 1;
+}
